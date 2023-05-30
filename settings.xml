@@ -1,0 +1,27 @@
+<settings>
+  <servers>
+    <server>
+      <id>artifact-registry</id>
+      <configuration>
+        <httpConfiguration>
+          <get>
+            <usePreemptive>true</usePreemptive>
+          </get>
+          <head>
+            <usePreemptive>true</usePreemptive>
+          </head>
+          <put>
+            <params>
+              <property>
+                <name>http.protocol.expect-continue</name>
+                <value>false</value>
+              </property>
+            </params>
+          </put>
+        </httpConfiguration>
+      </configuration>
+      <username>oauth2accesstoken</username>
+      <password>ya29.a0AX9GBdXWfvpx9WF7Q8FvmfmLexYHWo52lAa_VB6AzEFn8OXYq6HlTkM1bzDMiYf0xuO8bolxmqdvrVSBomtDIouRTi_qMZWHmgGbLIKB249yl4KUYfGY4sPt_ttIY3bakpf27gwWDFvJCTUjGm3DSK1975E268RLR--eaCgYKASwSAQASFQHUCsbC7KrxN_vQkc807g6ljiw-sw0171</password>
+    </server>
+  </servers>
+</settings>
