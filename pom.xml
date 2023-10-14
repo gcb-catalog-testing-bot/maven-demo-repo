@@ -21,18 +21,18 @@
  <distributionManagement>
     <snapshotRepository>
       <id>artifact-registry</id>
-      <url>https://us-central1-maven.pkg.dev/gcb-catalog-experiment/better-java-repo</url>
+      <url>https://us-central1-maven.pkg.dev/gcb-catalog-bugbash/java-bugbash-repo</url>
     </snapshotRepository>
     <repository>
       <id>artifact-registry</id>
-      <url>https://us-central1-maven.pkg.dev/gcb-catalog-experiment/better-java-repo</url>
+      <url>https://us-central1-maven.pkg.dev/gcb-catalog-bugbash/java-bugbash-repo</url>
     </repository>
   </distributionManagement>
 
   <repositories>
     <repository>
       <id>artifact-registry</id>
-      <url>https://us-central1-maven.pkg.dev/gcb-catalog-experiment/better-java-repo</url>
+      <url>https://us-central1-maven.pkg.dev/gcb-catalog-bugbash/java-bugbash-repo</url>
       <releases>
         <enabled>true</enabled>
       </releases>

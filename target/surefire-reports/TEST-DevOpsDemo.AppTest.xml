@@ -32,7 +32,7 @@
     <property name="java.class.version" value="64.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="13.4.1"/>
+    <property name="os.version" value="13.5.2"/>
     <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.9.3/libexec/lib/jansi-native"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/yawenluo"/>
@@ -41,9 +41,10 @@
     <property name="java.specification.version" value="20"/>
     <property name="user.name" value="yawenluo"/>
     <property name="java.class.path" value="/usr/local/Cellar/maven/3.9.3/libexec/boot/plexus-classworlds-2.7.0.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="debug"/>
     <property name="java.vm.specification.version" value="20"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install -e"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher deploy -X -Dorg.slf4j.simpleLogger.defaultLogLevel=INFO -Dorg.slf4j.simpleLogger.defaultLogLevel=OFF -q"/>
     <property name="java.home" value="/usr/local/Cellar/openjdk/20.0.1/libexec/openjdk.jdk/Contents/Home"/>
     <property name="apple.awt.application.name" value="Launcher"/>
     <property name="user.language" value="en"/>

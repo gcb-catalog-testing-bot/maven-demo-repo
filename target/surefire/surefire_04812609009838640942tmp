@@ -1,0 +1,6 @@
+#surefire_0
+#Fri Oct 06 08:14:23 EDT 2023
+basedir=/Users/yawenluo/Desktop/testfolder/local_dev/maven-demo-repo
+localRepository=/Users/yawenluo/.m2/repository
+org.slf4j.simpleLogger.defaultLogLevel=OFF
+user.dir=/Users/yawenluo/Desktop/testfolder/local_dev/maven-demo-repo

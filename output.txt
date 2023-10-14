@@ -1,0 +1,65 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< DevOpsDemo:DemoMavenProject >---------------------
+[INFO] Building DemoMavenProject 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from artifact-registry: https://us-central1-maven.pkg.dev/gcb-catalog-experiment/better-java-repo/com/mycompany/app/cloudbuild-test-maven/1.0/cloudbuild-test-maven-1.0.pom
+[INFO] Downloaded from artifact-registry: https://us-central1-maven.pkg.dev/gcb-catalog-experiment/better-java-repo/com/mycompany/app/cloudbuild-test-maven/1.0/cloudbuild-test-maven-1.0.pom (410 B at 233 B/s)
+[INFO] Downloading from artifact-registry: https://us-central1-maven.pkg.dev/gcb-catalog-experiment/better-java-repo/com/mycompany/app/cloudbuild-test-maven/1.0/cloudbuild-test-maven-1.0.jar
+[INFO] Downloaded from artifact-registry: https://us-central1-maven.pkg.dev/gcb-catalog-experiment/better-java-repo/com/mycompany/app/cloudbuild-test-maven/1.0/cloudbuild-test-maven-1.0.jar (3.0 kB at 4.1 kB/s)
+[INFO] 
+[INFO] --- resources:3.0.2:resources (default-resources) @ DemoMavenProject ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/yawenluo/Desktop/testfolder/local_dev/maven-demo-repo/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ DemoMavenProject ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.0.2:testResources (default-testResources) @ DemoMavenProject ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/yawenluo/Desktop/testfolder/local_dev/maven-demo-repo/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ DemoMavenProject ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- surefire:2.12.2:test (default-test) @ DemoMavenProject ---
+[INFO] Surefire report directory: /Users/yawenluo/Desktop/testfolder/local_dev/maven-demo-repo/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running DevOpsDemo.AppTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ DemoMavenProject ---
+[INFO] Building jar: /Users/yawenluo/Desktop/testfolder/local_dev/maven-demo-repo/target/DemoMavenProject-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ DemoMavenProject ---
+[INFO] Installing /Users/yawenluo/Desktop/testfolder/local_dev/maven-demo-repo/target/DemoMavenProject-0.0.1-SNAPSHOT.jar to /Users/yawenluo/.m2/repository/DevOpsDemo/DemoMavenProject/0.0.1-SNAPSHOT/DemoMavenProject-0.0.1-SNAPSHOT.jar
+[INFO] Installing /Users/yawenluo/Desktop/testfolder/local_dev/maven-demo-repo/pom.xml to /Users/yawenluo/.m2/repository/DevOpsDemo/DemoMavenProject/0.0.1-SNAPSHOT/DemoMavenProject-0.0.1-SNAPSHOT.pom
+[INFO] 
+[INFO] --- deploy:2.8.2:deploy (default-deploy) @ DemoMavenProject ---
+[INFO] Downloading from artifact-registry: https://us-central1-maven.pkg.dev/gcb-catalog-experiment/better-java-repo/DevOpsDemo/DemoMavenProject/0.0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Downloaded from artifact-registry: https://us-central1-maven.pkg.dev/gcb-catalog-experiment/better-java-repo/DevOpsDemo/DemoMavenProject/0.0.1-SNAPSHOT/maven-metadata.xml (779 B at 1.2 kB/s)
+[INFO] Uploading to artifact-registry: https://us-central1-maven.pkg.dev/gcb-catalog-experiment/better-java-repo/DevOpsDemo/DemoMavenProject/0.0.1-SNAPSHOT/DemoMavenProject-0.0.1-20230914.143315-16.jar
+[INFO] Uploaded to artifact-registry: https://us-central1-maven.pkg.dev/gcb-catalog-experiment/better-java-repo/DevOpsDemo/DemoMavenProject/0.0.1-SNAPSHOT/DemoMavenProject-0.0.1-20230914.143315-16.jar (3.4 kB at 4.1 kB/s)
+[INFO] Uploading to artifact-registry: https://us-central1-maven.pkg.dev/gcb-catalog-experiment/better-java-repo/DevOpsDemo/DemoMavenProject/0.0.1-SNAPSHOT/DemoMavenProject-0.0.1-20230914.143315-16.pom
+[INFO] Uploaded to artifact-registry: https://us-central1-maven.pkg.dev/gcb-catalog-experiment/better-java-repo/DevOpsDemo/DemoMavenProject/0.0.1-SNAPSHOT/DemoMavenProject-0.0.1-20230914.143315-16.pom (3.8 kB at 4.4 kB/s)
+[INFO] Downloading from artifact-registry: https://us-central1-maven.pkg.dev/gcb-catalog-experiment/better-java-repo/DevOpsDemo/DemoMavenProject/maven-metadata.xml
+[INFO] Downloaded from artifact-registry: https://us-central1-maven.pkg.dev/gcb-catalog-experiment/better-java-repo/DevOpsDemo/DemoMavenProject/maven-metadata.xml (286 B at 856 B/s)
+[INFO] Uploading to artifact-registry: https://us-central1-maven.pkg.dev/gcb-catalog-experiment/better-java-repo/DevOpsDemo/DemoMavenProject/0.0.1-SNAPSHOT/maven-metadata.xml
+[INFO] Uploaded to artifact-registry: https://us-central1-maven.pkg.dev/gcb-catalog-experiment/better-java-repo/DevOpsDemo/DemoMavenProject/0.0.1-SNAPSHOT/maven-metadata.xml (779 B at 1.1 kB/s)
+[INFO] Uploading to artifact-registry: https://us-central1-maven.pkg.dev/gcb-catalog-experiment/better-java-repo/DevOpsDemo/DemoMavenProject/maven-metadata.xml
+[INFO] Uploaded to artifact-registry: https://us-central1-maven.pkg.dev/gcb-catalog-experiment/better-java-repo/DevOpsDemo/DemoMavenProject/maven-metadata.xml (286 B at 600 B/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.367 s
+[INFO] Finished at: 2023-09-14T10:33:24-04:00
+[INFO] ------------------------------------------------------------------------

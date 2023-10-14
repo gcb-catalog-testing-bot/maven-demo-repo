@@ -1,0 +1,26 @@
+-classpath
+'/Users/yawenluo/.m2/repository/com/mycompany/app/cloudbuild-test-maven/1.0/cloudbuild-test-maven-1.0.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'/Users/yawenluo/Desktop/testfolder/local_dev/maven-demo-repo/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/yawenluo/Desktop/testfolder/local_dev/maven-demo-repo/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'DemoMavenProject 0.0.1 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/Users/yawenluo/Desktop/testfolder/local_dev/maven-demo-repo/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'DemoMavenProject 0.0.1 API'

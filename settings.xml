@@ -21,10 +21,10 @@
         </httpConfiguration>
       </configuration>
       <username>oauth2accesstoken</username>
-      <password>ya29.a0AX9GBdXWfvpx9WF7Q8FvmfmLexYHWo52lAa_VB6AzEFn8OXYq6HlTkM1bzDMiYf0xuO8bolxmqdvrVSBomtDIouRTi_qMZWHmgGbLIKB249yl4KUYfGY4sPt_ttIY3bakpf27gwWDFvJCTUjGm3DSK1975E268RLR--eaCgYKASwSAQASFQHUCsbC7KrxN_vQkc807g6ljiw-sw0171</password>
+      <password>AUTH_TOKEN</password>
     </server>
     <server>
-      <id>artifact-registry</id>
+      <id>artifact-registry2</id>
       <configuration>
         <httpConfiguration>
           <get>
@@ -44,7 +44,7 @@
         </httpConfiguration>
       </configuration>
       <username>oauth2accesstoken</username>
-      <password>ya29.a0AX9GBdXWfvpx9WF7Q8FvmfmLexYHWo52lAa_VB6AzEFn8OXYq6HlTkM1bzDMiYf0xuO8bolxmqdvrVSBomtDIouRTi_qMZWHmgGbLIKB249yl4KUYfGY4sPt_ttIY3bakpf27gwWDFvJCTUjGm3DSK1975E268RLR--eaCgYKASwSAQASFQHUCsbC7KrxN_vQkc807g6ljiw-sw0171</password>
+      <password>AUTH_TOKEN</password>
     </server>
   </servers>
 </settings>

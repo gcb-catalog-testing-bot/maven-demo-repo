@@ -17,12 +17,5 @@ public class Calculator {
 	public int divide(int x, int y) throws ArithmeticException {
 		SpecialCalculator sc = new SpecialCalculator();
 		return sc.divide(x, y);
-		// //This is a modified division method
-		// if(y!=0) {
-		// 	return x / y;
-		// }
-		// else {
-		// 	throw new ArithmeticException("Divide By Zero");
-		// }
 	}
 }
