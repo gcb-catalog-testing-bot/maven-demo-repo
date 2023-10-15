@@ -21,7 +21,7 @@
         </httpConfiguration>
       </configuration>
       <username>oauth2accesstoken</username>
-      <password>ya29.a0AfB_byAujGuQIWJXu8t-EmBKlyCao-fxCRxMbfYjQi8zDatbLNhJ3sAE9NW2IPmirsYLzgm8bxn3eorXFPPL9mWttUD1wtXnOQrOGrVTQxXh4KJHgsh6va8pS1CcNjOs99pyAcIqFYrK0d_KZRq-653rrqotXxQ7kJKAl3waCgYKAT4SAQ4SFQGOcNnClAlqufC66TMQqCZ7ae5wWQ0174</password>
+      <password>ya29.a0AfB_byBRE7xSL_1_h7Jlhynbwlb839VvHrXtbvcpM-RP0UyzYnNKDImBGZ6uPmRpw0pvlJCBFJm_FWOyZjCs0eJv7p18liwNpxa828TzcBTtbg2ZZVyYgI8fbGU9WULDZdKV2HD1H_5ftnbAq1F_oGVpokTxfbM3kKXaS4caCgYKAfISAQ4SFQGOcNnC-mc9VZDWVm7vPmt-OV8B8g0174</password>
     </server>
     <server>
       <id>artifact-registry2</id>
@@ -44,7 +44,7 @@
         </httpConfiguration>
       </configuration>
       <username>oauth2accesstoken</username>
-      <password>ya29.a0AfB_byAujGuQIWJXu8t-EmBKlyCao-fxCRxMbfYjQi8zDatbLNhJ3sAE9NW2IPmirsYLzgm8bxn3eorXFPPL9mWttUD1wtXnOQrOGrVTQxXh4KJHgsh6va8pS1CcNjOs99pyAcIqFYrK0d_KZRq-653rrqotXxQ7kJKAl3waCgYKAT4SAQ4SFQGOcNnClAlqufC66TMQqCZ7ae5wWQ0174</password>
+      <password>ya29.a0AfB_byBRE7xSL_1_h7Jlhynbwlb839VvHrXtbvcpM-RP0UyzYnNKDImBGZ6uPmRpw0pvlJCBFJm_FWOyZjCs0eJv7p18liwNpxa828TzcBTtbg2ZZVyYgI8fbGU9WULDZdKV2HD1H_5ftnbAq1F_oGVpokTxfbM3kKXaS4caCgYKAfISAQ4SFQGOcNnC-mc9VZDWVm7vPmt-OV8B8g0174</password>
     </server>
   </servers>
 </settings>
