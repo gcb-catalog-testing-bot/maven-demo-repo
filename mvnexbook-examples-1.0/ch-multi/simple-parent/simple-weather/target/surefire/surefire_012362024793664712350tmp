@@ -1,7 +1,0 @@
-#surefire_0
-#Tue Oct 17 12:02:13 EDT 2023
-altReleaseDeploymentRepository=artifact-registry\:\:https\://us-docker.pkg.dev/gcb-catalog-experiment/test-java-repo
-basedir=/Users/yawenluo/Desktop/testfolder/local_dev/maven-demo-repo/mvnexbook-examples-1.0/ch-multi/simple-parent/simple-weather
-localRepository=/Users/yawenluo/.m2/repository
-snapshot=true
-user.dir=/Users/yawenluo/Desktop/testfolder/local_dev/maven-demo-repo/mvnexbook-examples-1.0/ch-multi/simple-parent/simple-weather
