@@ -49,6 +49,16 @@
         <enabled>true</enabled>
       </snapshots>
     </repository>
+    <repository>
+      <id>artifact-registry3</id>
+      <url>https://us-central1-maven.pkg.dev/gcb-catalog-experiment/better-java-repo</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
   </repositories>
 
   <build>
